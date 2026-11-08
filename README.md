@@ -60,6 +60,7 @@ The shipped PNGs also have a light grain and vignette pass, applied with ImageMa
 ## License
 
 - Theme files, `src/wallpapers.py` and the wallpapers: MIT, see [LICENSE](LICENSE).
+- `unlock.png`: the Omarchy logo, recoloured. MIT, © David Heinemeier Hansson.
 - Fonts: SIL Open Font License, see `fonts/OFL-*.txt`.
 
 This is an unofficial fan project, not affiliated with or endorsed by Bethesda.
