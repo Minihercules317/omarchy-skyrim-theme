@@ -20,12 +20,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-This license covers the theme files, src/wallpapers.py and the original
-wallpapers, except unlock.png (see below). Fonts in fonts/ are under the
+This license covers the theme files and the original wallpapers, except
+unlock.png and preview-unlock.png (see below). Fonts in fonts/ are under the
 SIL Open Font License (see fonts/OFL-*.txt). Photographs, if any, keep
 their own licences as listed in README.md.
 
-unlock.png is the Omarchy logo from Omarchy's built-in themes, recoloured.
+unlock.png is the Omarchy logo from Omarchy's built-in themes, recoloured;
+preview-unlock.png was made from it with `omarchy plymouth preview`.
 Omarchy is released under the MIT License:
 
     Copyright (c) David Heinemeier Hansson

@@ -6,9 +6,9 @@ Yaru-prussiangreen icons. Window borders fade from frost to gold.
 
 ![Preview](preview.png)
 
-> **Made with AI.** Claude (Anthropic) wrote this theme: the colours, the wallpaper
-> generator script and this README. Minihercules317 came up with the idea, made the
-> design choices and tested it on Omarchy.
+> **Made with AI.** Claude (Anthropic) made this theme: the colours, the wallpapers
+> (drawn by a script Claude wrote) and this README. Minihercules317 came up with
+> the idea, made the design choices and tested it on Omarchy.
 
 ## Install
 
@@ -20,11 +20,11 @@ Or go to Omarchy menu > Install > Style > Theme and paste the URL. To switch to 
 
 ## Wallpapers
 
-Both wallpapers are original art (aurora, twin moons, snowy peaks, dragons) drawn
-by `src/wallpapers.py`. They don't use any artwork from the game.
+Both wallpapers are original art (aurora, twin moons, snowy peaks, dragons),
+drawn as vector graphics by a script. They don't use any artwork from the game.
 
-1. `1-aurora.png`: aurora over the mountains, "FUS · RO · DAH"
-2. `2-throat-of-the-world.png`: the same peaks at dawn, with dragons, "The Throat of the World"
+1. `1-aurora.jpg`: aurora over the mountains, "FUS · RO · DAH"
+2. `2-throat-of-the-world.jpg`: the same peaks at dawn, with dragons, "The Throat of the World"
 
 Cycle wallpapers with `omarchy theme bg next`.
 
@@ -50,17 +50,10 @@ To go back to the default fonts:
     omarchy font set "JetBrainsMono Nerd Font"
     gsettings set org.gnome.desktop.interface font-name 'Adwaita Sans 11'
 
-## Regenerating the wallpapers
-
-    python3 src/wallpapers.py aurora > aurora.svg   # or: dawn
-    rsvg-convert aurora.svg -o aurora.png           # needs Cinzel installed for the title
-
-The shipped PNGs also have a light grain and vignette pass, applied with ImageMagick.
-
 ## License
 
-- Theme files, `src/wallpapers.py` and the wallpapers: MIT, see [LICENSE](LICENSE).
-- `unlock.png`: the Omarchy logo, recoloured. MIT, © David Heinemeier Hansson.
+- Theme files and the wallpapers: MIT, see [LICENSE](LICENSE).
+- `unlock.png` and `preview-unlock.png`: the Omarchy logo, recoloured. MIT, © David Heinemeier Hansson.
 - Fonts: SIL Open Font License, see `fonts/OFL-*.txt`.
 
 This is an unofficial fan project, not affiliated with or endorsed by Bethesda.
